@@ -1,0 +1,9 @@
+Curso Completo de Flet
+https://www.youtube.com/watch?v=7EhjlAz4vvs
+min: 15:18
+
+Flet esta basado en Flutter
+Crea aplicaciones GUI, WEB y APP MOVIL
+
+- Hay que instalar la libreria de flet:
+    pip install flet
