@@ -1,9 +1,23 @@
 Curso Completo de Flet
 https://www.youtube.com/watch?v=7EhjlAz4vvs
-min: 27:45
+min: 45:43
+
+--------------------------------------------------------------
+Prácticas de la página de Flet
+https://flet.dev/docs/getting-started/custom-controls
+Voy comenzando por: Controles personalizados
+
 
 Flet esta basado en Flutter
 Crea aplicaciones GUI, WEB y APP MOVIL
 
 - Hay que instalar la libreria de flet:
     pip install flet
+
+Se puede crear un proyecto flet en CMD:
+    flet create nom_proyecto        <-- Dentro de esta carpeta se creará un proyecto básic
+
+Para correr una app flet en CMD:
+    flet run main.py
+Para correrla como WEB:
+    flet run --web main.py
