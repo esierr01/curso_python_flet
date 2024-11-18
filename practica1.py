@@ -3,6 +3,7 @@ import flet as ft
 
 
 def main(page: ft.Page):
+    page.window_icon = "./assets/python.ico"
     # aqui muestro dos etiquetas
     t1 = ft.SafeArea(ft.Text("Hello, Flet!"))   # Control de Texto Básico, sin consideraciones de diseño
     t2 = ft.Text(value="Hello, world!", color="green")  # Texto Dentro de SafeArea, el texto se ajustara a la pantalla
