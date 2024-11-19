@@ -1,3 +1,5 @@
+# Controles básicos, estructura inicial
+
 import time
 import flet as ft
 

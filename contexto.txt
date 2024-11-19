@@ -4,8 +4,8 @@ min: 58:40
 
 --------------------------------------------------------------
 Prácticas de la página de Flet
-https://flet.dev/docs/getting-started/custom-controls
-Voy comenzando por: Controles personalizados
+https://flet.dev/docs/getting-started/adaptive-apps
+Voy comenzando por: Aplicaciones adaptativas / Adaptive apps
 
 
 Flet esta basado en Flutter
@@ -21,3 +21,14 @@ Para correr una app flet en CMD:
     flet run main.py
 Para correrla como WEB:
     flet run --web main.py
+--------------------------------------------------------------
+Para compilar un script.py y convertirlo en una aplicación ejecutable
+
+1. En la CMD escribimos
+    pip install pyinstaller
+
+    pyinstaller script.py
+
+            Se crea una carpeta .\dist
+            Con una serie de archivos, hay que copiar esta carpeta con su subcarpeta para que funcione:
+                

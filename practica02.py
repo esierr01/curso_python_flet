@@ -1,3 +1,5 @@
+# Ejemplo de contador
+
 import flet as ft
 
 

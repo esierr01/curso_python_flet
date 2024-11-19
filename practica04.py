@@ -1,3 +1,5 @@
+# ejemplo pregunta nombre, valida que lo coloque, limpia pantalla y muestra mensaje
+
 import flet as ft
 
 
